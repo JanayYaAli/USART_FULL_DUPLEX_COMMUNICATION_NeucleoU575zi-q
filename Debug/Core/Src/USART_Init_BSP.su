@@ -1,0 +1,2 @@
+../Core/Src/USART_Init_BSP.c:12:7:MX_USART1_Init	8	static
+../Core/Src/USART_Init_BSP.c:60:7:MX_USART2_Init	8	static

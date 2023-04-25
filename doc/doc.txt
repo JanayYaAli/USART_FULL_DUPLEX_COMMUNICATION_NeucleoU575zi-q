@@ -1,0 +1,18 @@
+
+
+
+		Single board fullduplex USART communcation
+		The baudrate is 2.5MHz, this can be further increase by using PCB design instead of using jumper wire on neucleo board 
+
+
+	 ___________					 ___________
+	|			|					|			|
+	|	USART1	|					|	USART2	|
+	|	(RX)PA10|-------------------|PA2(TX)	|
+	|	(TX)PA9	|-------------------|PA3(RX)	|
+	|	(CLK)PA8|-------------------|PA4(CLK)	|
+	|	Nucleo	|					|	Nucleo	|
+	|	u575	|					|	u575	|		
+	|			|					|			|
+	|			|					|			|
+	|___________|					|__________	|
